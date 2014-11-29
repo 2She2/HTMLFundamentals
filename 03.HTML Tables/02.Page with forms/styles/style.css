@@ -1,0 +1,13 @@
+﻿input, label, span {
+    margin: 0;
+    padding: 0;
+}
+
+body input {
+    border: 1px inset;
+    border-radius: 2px;
+}
+
+input#submitButton {
+    border: none;
+}

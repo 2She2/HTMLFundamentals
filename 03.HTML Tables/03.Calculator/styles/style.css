@@ -1,0 +1,33 @@
+﻿body form {
+    width: 180px;
+    padding: 0;
+    border: 5px outset;
+    border-color: #A0A0A0;
+    background-color: black;
+}
+
+body form input[type="button"] {
+    width: 42px;
+    height: 40px;
+    padding: 0;
+    margin-top: 3px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+body form input[type="text"] {
+    margin: 0;
+    border: 6px inset;
+    border-color: #A0A0A0;
+    width: 168px;
+    line-height: 40px;
+    text-align: right;
+    vertical-align: middle;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+}
+
+#zeroButton {
+    width: 88px;
+}

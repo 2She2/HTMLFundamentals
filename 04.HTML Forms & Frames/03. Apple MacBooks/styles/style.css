@@ -1,0 +1,79 @@
+﻿body, form, nav, section, h1, fieldset, span, img, aside, label, input {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Calibri, sans-serif;
+}
+
+nav {
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 10%;
+}
+
+nav a {
+    display: inline-block;
+    color: #20B8F1;
+}
+
+form {
+    float: left;
+    margin: 10px;
+    padding: 0px 10px 10px 10px;
+    border: 2px solid black;
+    width: 413px;
+}
+
+fieldset {
+    display: inline-block;
+    width: 200px;
+    border: 2px solid black;
+}
+
+fieldset span {
+    display: block;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+fieldset img {
+    float: left;
+    margin-left: 3px;
+}
+
+fieldset legend {
+    margin-left: 17%;
+}
+
+span.topLabel {
+    padding-top: 22px;
+}
+
+span.bottomLabel {
+    margin-left: 37px;
+}
+
+div label, input {
+    display: block;
+    margin: 10px;
+}
+
+div {
+    float: left;
+    width: 300px;
+    height: 200px;
+    margin-top: 40px;
+}
+
+div label {
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+div input {
+    width: 150px;
+    margin-left: 18px;
+}

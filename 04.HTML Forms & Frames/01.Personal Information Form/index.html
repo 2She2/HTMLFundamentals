@@ -1,0 +1,84 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Personal Information Form</title>
+    <link type="text/css" rel="stylesheet" href="styles/style.css" />
+</head>
+<body>
+    <form method="post" action="someAction.php">
+        <div>
+            <label class="leftLabels" for="lastName">Last Name</label>
+            <input type="text" name="LastName" id="lastName" class="rightItems" value="Nakov" />
+        </div>
+        <div>
+            <label class="leftLabels" for="firstName">First Name</label>
+            <input type="text" name="FirstName" id="firstName" class="rightItems" value="Svetlin" />
+        </div>
+        <div id="addressDiv">
+            <label class="leftLabels" id="addressLabel" for="address">Address</label>
+            <textarea name="Address" id="address" class="rightItems">17 Hristo Botev Str.&#10;floor 3, apt. 12</textarea>
+        </div>
+        <div>
+            <label class="leftLabels" for="city">City</label>
+            <input type="text" name="City" id="city" class="rightItems" value="Kaspichan" />
+            <label for="state" id="stateLabel">State</label>
+            <input type="text" name="State" id="state" class="rightItems" />
+        </div>
+        <div>
+            <label class="leftLabels" for="zipCode">Zip/Postal Code</label>
+            <input type="text" name="ZipCode" id="zipCode" class="rightItems" value="9352" />
+        </div>
+        <div>
+            <label class="leftLabels" for="countries">Country</label>
+            <select name="countries" id="countries" class="rightItems">
+                <option value="Value 1" selected="selected">Bulgaria</option>
+                <option value="Value 2">USA</option>
+                <option value="Value 3">Germany</option>
+            </select>
+        </div>
+        <div id="phoneDiv">
+            <label class="leftLabels" id="phone" for="countryCode">Phone &#40;country code,&#10;area code, number&#41;</label>
+            <span class="rightItems">&#40;&#43;</span><input type="tel" name="CountryCode" id="countryCode" class="rightItems" value="359" />
+            <span class="rightItems">&#41;</span>
+            <input type="tel" name="AreaCode" class="rightItems" id="startNumTel" value="88" />
+            <span class="rightItems">&#45;</span>
+            <input type="tel" name="Number" class="rightItems" id="telLastNumbers" value="8334343" />
+        </div>
+        <div>
+            <label class="leftLabels" for="email">E-mail</label>
+            <input type="email" name="E-mail" id="email" class="rightItems" value="nakov&#64;kaspichan&#46;org" />
+        </div>
+        <div>
+            <label class="leftLabels" for="month">Birth date</label>
+            <label class="rightItems" for="month">Month</label>
+            <input type="text" name="Month" id="month" class="rightItems" value="06" />
+            <label class="rightItems" for="day">Day</label>
+            <input type="text" name="Day" id="day" class="rightItems" value="14" />
+            <label class="rightItems" for="year">Year &#40;4 digit&#41;</label>
+            <input type="text" name="Year" id="year" class="rightItems" value="1980" />
+        </div>
+        <div>
+            <label class="leftLabels" for="gender">Gender</label>
+            <select name="Gender" id="gender" class="rightItems">
+                <option value="Value 1" selected="selected">Male</option>
+                <option value="Value 2">Female</option>
+            </select>
+        </div>
+        <div>
+            <label class="leftLabels">Starting date</label>
+            <input type="radio" name="season" value="Spring 2006" id="spring" class="rightItems" />
+            <label class="rightItems" for="spring">Spring 2006</label>
+            <input type="radio" name="season" value="Summer 2006" id="summer" class="rightItems" />
+            <label class="rightItems" for="summer">Summer 2006</label>
+        </div>
+        <div id="commentsDiv">
+            <label class="leftLabels" id="commentsLabel" for="comments">Comments&#47;Questions</label>
+            <textarea name="Comments" id="comments" class="rightItems">Please send me more information&#10;about the lodging.</textarea>
+        </div>
+        <div id="bottomDiv">
+            <input id="leftBottomButton" class="bottomButtons" type="submit" value="Submit" />
+            <input id="rightBottomButton" class="bottomButtons" type="reset" value="Clean This Form" />
+        </div>
+    </form>
+</body>
+</html>

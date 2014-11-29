@@ -1,0 +1,139 @@
+﻿form, div, label, input, textarea, select, span {
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+	resize: none;
+	overflow: auto;
+}
+
+.leftLabels {
+    float: left;
+    width: 145px;
+    line-height: 25px;
+    height: 25px;
+    border-right: 1px solid;
+    text-align: right;
+    vertical-align: middle;
+    font-weight: bold;
+    padding-right: 5px;
+    margin-right: 5px;
+}
+
+.rightItems {
+    vertical-align: middle;
+}
+
+#addressLabel, #addressDiv {
+    height: 65px;
+    line-height: 65px;
+}
+
+div#phoneDiv {
+    height: 50px;
+    line-height: 50px;
+}
+
+#phone {
+    height: 50px;
+    line-height: 25px;
+}
+
+div#commentsDiv, #commentsLabel {
+    height:90px;
+    line-height: 90px;
+}
+
+div {
+    width: 455px;
+    height: 25px;
+    border: 1px solid;
+    border-bottom: none;
+}
+
+div#bottomDiv {
+    height: 35px;
+    line-height: 35px;
+    background-color: #D1EDE1;
+    border-bottom: 1px solid;
+}
+
+.bottomButtons {
+    vertical-align: middle;
+    margin-bottom: 3px;
+    height: 25px;
+}
+
+input#leftBottomButton {
+    width: 55px;
+    margin-left: 142px;
+}
+
+input#rightBottomButton {
+    width: 115px;
+}
+
+#lastName, #firstName {
+    width: 280px;
+}
+
+#address, #comments {
+    width: 270px;
+}
+
+#address {
+    height: 55px;
+}
+
+#comments {
+    height: 80px;
+}
+
+#city {
+    width: 200px;
+    margin-bottom: 2px;
+}
+
+#state {
+    width: 40px;
+    margin-bottom: 2px;
+}
+
+#stateLabel {
+    display: inline-block;
+    height: 25px;
+    line-height: 25px;
+    border-left: 1px solid;
+    border-right: 1px solid;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+#zipCode {
+    width: 80px;
+}
+
+#countries {
+    width: 200px;
+}
+
+#countryCode, #startNumTel {
+    width: 50px;
+}
+
+#telLastNumbers {
+    width: 120px;
+}
+
+#email {
+    width: 270px;
+}
+
+#month, #day {
+    width: 25px;
+}
+
+#year {
+    width: 55px;
+}
